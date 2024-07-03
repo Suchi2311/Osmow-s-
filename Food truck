@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osmow's Shawarma Food Truck</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="hero-banner">
+      <h1>Experience Authentic Shawarma at the Beach</h1>
+      <img src="shawarma.jpg" alt="Shawarma">
+    </div>
+  </header>
+  <main>
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu-item">
+        <h3>Chicken Shawarma Wrap</h3>
+        <img src="chicken-shawarma.jpg" alt="Chicken Shawarma">
+        <p>Deliciously marinated chicken wrapped in a soft pita.</p>
+      </div>
+      <!-- More menu items -->
+    </section>
+    <section id="locations">
+      <h2>Locations</h2>
+      <p>Beachside Park, Mon-Wed, 11 AM - 3 PM</p>
+      <p>Downtown Plaza, Thu-Sat, 11 AM - 8 PM</p>
+      <div id="map"></div>
+    </section>
+    <section id="order-online">
+      <h2>Order Online</h2>
+      <form>
+        <!-- Order form fields -->
+      </form>
+    </section>
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>Osmow's Shawarma has been serving authentic shawarma since 2010...</p>
+      <p>We are proud to be part of the community...</p>
+    </section>
+    <section id="reviews">
+      <h2>Reviews and Testimonials</h2>
+      <p>"Best shawarma in town!" - John Doe</p>
+      <!-- More testimonials -->
+    </section>
+    <section id="blog-news">
+      <h2>Blog/News</h2>
+      <article>
+        <h3>New Menu Items Coming Soon!</h3>
+        <p>We are excited to announce...</p>
+      </article>
+      <!-- More blog posts -->
+    </section>
+    <section id="social-media">
+      <h2>Follow Us</h2>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+      <div class="social-feed">
+        <!-- Embedded social media feed -->
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <h3>FAQs</h3>
+      <p>Q: What are your hours?</p>
+      <p>A: See our Locations section for details.</p>
+      <!-- More FAQs -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Osmow's Shawarma Food Truck</p>
+  </footer>
+</body>
+</html>
